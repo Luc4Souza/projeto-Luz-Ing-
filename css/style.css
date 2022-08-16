@@ -1,0 +1,309 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif
+}
+
+
+/* header*/
+a{
+    color: #030096;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 25px;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+.logo{
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding:  1px 1px 1px 1px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:#967C02;
+    height: 10vh;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+
+/*main*/
+
+.sobre{
+    display: flex;
+    padding-bottom: 171px;
+}
+
+.texto1{
+    padding: 175px 105px 10px 127px;
+    margin: 28px 85px 1px 70px;
+    font-size: 27px;
+}
+
+.img1{
+    padding: 175px 105px 10px 127px;
+    margin: 28px 85px 1px 70px;
+    height: 500px;
+    width: 1000px;
+    transition: 0.3s;
+}
+
+.img1:hover{
+    opacity: 0.5;
+    
+}
+
+
+
+h2{
+    padding:0px 92px 63px 11px;
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    font-size: 60px;
+    
+}
+
+
+
+.menu{
+    padding: 60px 20px 20px 20px;
+    margin: auto;
+    display: flex;
+    transition: 0.5s;
+    background-color: #FFD81F;
+}
+
+.texto-menu{
+    color: #030096;
+    text-align:center;
+    padding: 250px 25px 23px 12px;
+    font-size: 50px;
+}
+
+.texto-menu2{
+    color: #030096;
+    text-align:center;
+    padding: 250px 25px 23px 12px;
+    font-size: 50px;
+}
+
+.texto-menu3{
+    color: #030096;
+    text-align:center;
+    padding: 250px 25px 23px 0px;
+    font-size: 50px;
+}
+
+.catalogo1{
+    background-color: #23232e;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+    width:400px;
+    height: 300px;
+    align-content: center;
+    background-image: url(https://vngiluminacao.com.br/wp-content/uploads/2021/08/img03-1.png);
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.catalogo2{
+    background-color: #23232e;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+    width:400px;
+    height: 300px;
+    align-content: center;
+    background-image: url(https://149361125.v2.pressablecdn.com/wp-content/uploads/2019/09/Industrial-01.jpg);
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.catalogo3{
+    background-color: #23232e;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+    width:400px;
+    height: 300px;
+    align-content: center;
+    background-image: url(https://www.inspectro.com.br/imagens/informacoes/empresas-materiais-eletricos-01.jpg);
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.catalogo1:hover{
+    opacity: 0.7;
+}
+
+.catalogo2:hover{
+    opacity: 0.7;
+}
+
+.catalogo3:hover{
+    opacity: 0.7;
+}
+
+.img2{
+   
+    padding: 10px;
+    width:300px;
+    align-content: center;
+}
+
+.serviços{
+    padding-left: 150px;
+    padding-right: 300px;
+    color: #23232e;
+    text-align: center;
+    font-size: 50px;
+}
+
+.link{
+    color: #fff;
+    background-color: black;
+    border-radius: 20px 20px;
+    font-size: 40px;
+}
+
+
+.container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding-top: 100px;
+}
+
+.form-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    
+}
+
+.form-image img{
+    width: 65rem;
+    border-radius: 20px;
+   
+}
+
+.form{
+   
+    width: 100%;
+    height: 100px;
+    font-size: 45px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    padding: 9rem;
+    border-radius: 20px;
+}
+
+h1{
+    color: #967C02;
+}
+
+
+.form-header h1::after{
+    content: '';
+    display: block;
+    width: 35rem;
+    height: 0.3rem;
+    background-color:  #003C96;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.input-group{
+    display: inline;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    align-items: center;
+    
+}
+
+.continue-button{
+    display: flex;
+    align-items: center;
+}
+
+.continue-button button{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+    background-color:#003C96;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.continue-button button:hover{
+    background-color: #055DE3;
+}
+
+.continue-button a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+footer{
+    background-color: #967C02;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    color: #fff;
+}
+
+span{
+    font-size: 45px;
+    color: #E3BC05;
+}
+
+p{
+    color: black;
+}
