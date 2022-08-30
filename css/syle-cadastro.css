@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    color: #030096;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 25px;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+.logo{
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding:  1px 1px 1px 1px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:#967C02;
+    height: 10vh;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+form{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.form{
+    
+    margin-top: 50px;
+    width: 100%;
+    height: 60vh;
+}
+
+.input-group{
+    background-color:#FFD81F;
+    margin-left: auto;
+    margin-right: auto;
+    width:  50%;
+    height: 60vh;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
+}
+
+.input-text{
+    font-size: 20px;
+    padding: 2.5rem;
+}
+
+.input-text h2::after{
+    content: '';
+    display: block;
+    width: 30rem;
+    height: 0.3rem;
+    background-color:  #030096;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.input-box{
+    margin-bottom: 15px;
+    height: 30px;
+}
+
+.input-box label{
+   font-size: 25px;
+   padding-right: 20px;
+}
+
+.input-box input{
+    padding-left: 5px;
+    border-radius: 5px;
+    border-style: none;
+    height: 30px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.377);
+}
+
+.input-box input:hover{
+    background-color: #020096b0;
+    opacity: 0.9;
+}
+
+
+
+.put-box label{
+    font-size: 25px;
+}
+
+.put-box textarea{
+    margin: 10px;
+    height: 70px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.37);
+}
+
+.put-box textarea:hover{
+    background-color:#030096;
+    opacity: 0.5;
+}
+
+.botao{
+    margin-top: 30px;
+}
+
+button{
+    background-color:rgba(0, 0, 0, 0.788);
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+button:hover{
+    background-color: #02009669;
+    opacity: 0.5;
+}
+
+button a{
+    color:#fff;
+}
+
+a:hover{
+    color:black;
+    opacity: 0.5;
+}
