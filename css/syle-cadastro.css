@@ -40,6 +40,14 @@ nav{
     margin-left: 32px;
 }
 
+.login{
+    background: #E4E5E6;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+}
+
 form{
     display: flex;
     width: 100%;
